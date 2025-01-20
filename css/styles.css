@@ -11,6 +11,36 @@ body {
          color: #434455;
 }
 
+h1,
+h2,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin: 0;
+}
+
+.container {
+    max-width: 1158px;
+        padding: 0 15px; 
+        margin: 0 auto;
+}
+
+img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
 .text {
     font-weight: 400;
         font-size: 16px;
@@ -47,16 +77,10 @@ font-weight: 700;
     color: #2e2f42;
 }
 
-h3 {
-font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
 ul, ol {
     list-style-type: none;
+    margin: 0;
+     padding: 0;
 }
 
 a {
