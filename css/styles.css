@@ -146,10 +146,16 @@ a {
 
 /* title */
 
-.title-container {
+.title {
     display: block;
+        background-color: #2e2f42;
     padding: 188px 0;
-    background-color: #2e2f42;
+}
+
+.title-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .title-header {
@@ -159,10 +165,16 @@ a {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
-    width: 496px;
+    max-width: 496px;
 }
 
 .button {
+    display: block;
+    margin: 48px 164px 0;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -177,7 +189,11 @@ a {
     background: #404bbf;
 }
 
-/* main */
+/* advantages */
+
+.advantages {
+    padding: 120px 0;
+}
 
 .adv-container {
     display: flex;
@@ -189,6 +205,16 @@ a {
 
 .advantages-title {
     display: none;
+}
+
+.adv-list {
+    display: flex;
+    gap: 24px;
+    height: 104px;
+}
+
+.adv-list-header {
+    margin-bottom: 8px;
 }
 
 .adv-list-item {
@@ -264,8 +290,11 @@ display: flex;
 
 /* footer */
 
+.page-footer {
+    background-color: #2e2f42;
+}
+
 .footer-container {
-    background-color:#2e2f42;
     display: flex;
     align-items: center;
     padding: 100px 0;
