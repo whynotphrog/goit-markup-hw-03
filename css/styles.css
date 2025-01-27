@@ -76,7 +76,14 @@ a {
 }
 
 .visually-hidden {
-    display: none;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
 }
 
 /* common */
@@ -260,6 +267,7 @@ a {
 
 .team {
     background-color:#f4f4fd;
+    padding: 120px 0;
 }
 
 .team-list {
@@ -318,6 +326,10 @@ display: flex;
 
 .portfolio-list-item {
     width: calc((100% - 48px) / 3);
+}
+
+.portfolio-header {
+    margin-bottom: 8px;
 }
 
 .portfolio-text {
