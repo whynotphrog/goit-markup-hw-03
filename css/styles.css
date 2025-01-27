@@ -226,6 +226,12 @@ a {
         width: calc((100% - 72px) / 4);
 }
 
+/* team */
+
+.team-container {
+    padding: 120px 156px;
+}
+
 .section-header {
 font-weight: 700;
     font-size: 36px;
@@ -234,6 +240,7 @@ font-weight: 700;
     text-align: center;
     text-transform:capitalize;
     color: #2e2f42;
+    margin: 72px;
 }
 
 .list-header {
@@ -256,7 +263,6 @@ font-weight: 700;
     display: flex;
     gap: 24px;
     align-items: center;
-    padding: 120px 156px;
     width: calc((100% - 72px) / 4)
 
 }
