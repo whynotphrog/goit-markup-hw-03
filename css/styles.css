@@ -200,7 +200,7 @@ a {
 
 .button {
     display: block;
-    margin: 48px 164px 0;
+    margin-top: 48px;
     min-width: 169px;
     height: 56px;
     border: none;
@@ -276,7 +276,6 @@ display: flex;
     justify-content: center;
     flex-direction: column;
     border-radius: 0 0 4px 4px;
-        padding: 0px 0px 32px 0px;
         flex-basis: calc((100% - 72px) / 4);
         box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
             background: #fff;
@@ -291,7 +290,6 @@ display: flex;
 
 .bio-header {
     text-align: center;
-    margin-bottom: 8px;
 }
 
 .bio-text {
@@ -319,10 +317,6 @@ display: flex;
 
 .portfolio-list-item {
     width: calc((100% - 48px) / 3);
-}
-
-.portfolio-header {
-    margin-bottom: 8px;
 }
 
 .portfolio-text {
