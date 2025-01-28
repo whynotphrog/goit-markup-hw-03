@@ -239,6 +239,10 @@ a {
     gap: 24px;
 }
 
+.adv-list-header {
+    margin-bottom: 8px;
+}
+
 .adv-list-item {
     display: flex;
         align-items: flex-start;
@@ -246,7 +250,6 @@ a {
         flex-direction: column;
         height: 104px;
         flex-basis: calc((100% - 72px) / 4);
-        gap: 8px;
 }
 
 /* team section */
@@ -281,11 +284,14 @@ display: flex;
             background: #fff;
 }
 
+.bio-header {
+    margin-bottom: 8px;
+}
+
 .bio {
     display: flex;
     flex-direction: column;
     padding: 32px 0;
-    gap: 8px;
 }
 
 .bio-header {
@@ -319,12 +325,15 @@ display: flex;
     width: calc((100% - 48px) / 3);
 }
 
+.portfolio-header {
+    margin-bottom: 8px;
+}
+
 .portfolio-text {
     display: flex;
         align-items: flex-start;
         justify-content: center;
         flex-direction: column;
-        gap: 8px;
         border-bottom: 1px solid #e7e9fc;
             border-left: 1px solid #e7e9fc;
             border-right: 1px solid #e7e9fc;
