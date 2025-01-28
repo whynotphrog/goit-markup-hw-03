@@ -64,7 +64,7 @@ a {
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
-    margin: 72px;
+    margin-bottom: 72px;
 }
 
 .list-header {
@@ -174,9 +174,7 @@ a {
     padding: 24px 0;
 }
 
-/* hero */
-
-/* title */
+/* title section */
 
 .title {
     display: block;
@@ -221,7 +219,7 @@ a {
     background: #404bbf;
 }
 
-/* advantages */
+/* advantages section */
 
 .advantages {
     padding: 120px 0;
@@ -230,18 +228,15 @@ a {
 .adv-container {
     display: flex;
     align-items: center;
-    gap: 24px;
     flex-direction: row;
 }
 
 .adv-list {
     display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
     gap: 24px;
-    flex-wrap: wrap;
-}
-
-.adv-list-header {
-    margin-bottom: 8px;
 }
 
 .adv-list-item {
@@ -249,11 +244,12 @@ a {
         align-items: flex-start;
         justify-content: flex-start;
         flex-direction: column;
+        height: 104px;
+        flex-basis: calc((100% - 72px) / 4);
         gap: 8px;
-        width: calc((100% - 72px) / 4);
 }
 
-/* team */
+/* team section */
 
 .team {
     padding: 120px 156px;
@@ -279,7 +275,6 @@ display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 32px;
     border-radius: 0 0 4px 4px;
         padding: 0px 0px 32px 0px;
         flex-basis: calc((100% - 72px) / 4);
@@ -309,7 +304,7 @@ display: flex;
     object-fit: fill;
 }
 
-/* portfolio */
+/* portfolio section */
 
 .portfolio {
     padding: 120px 0;
